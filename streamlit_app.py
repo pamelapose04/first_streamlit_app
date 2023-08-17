@@ -40,6 +40,15 @@ streamlit.dataframe(fruityvice_normalized)
 
 import snowflake.connector
 
+[snowflake]
+user = "pamelapose04"
+password = "Accenture2023_bgc"
+account = "FR49794.ca-central-1.aws" <--Replace this with your Account Locator, etc - and delete this comment
+warehouse = "compute_wh" 
+database = "PC_RIVERY_WH " 
+schema = "public"
+role = "accountadmin"
+
 
 
 
